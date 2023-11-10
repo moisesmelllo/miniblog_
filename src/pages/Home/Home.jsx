@@ -41,7 +41,7 @@ const Home = () => {
           <PostDetail key={post.id} post={post}/>
         ))}
         {posts && posts.length === 0 && (
-          <div className={styles.noposts}>
+          <div className='noposts'>
             <p>Não foram encontrados posts</p>
             <Link to='/post/create' className='btn'>Criar primeiro post</Link>
           </div>
